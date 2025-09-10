@@ -8,4 +8,8 @@ include_directories(.)
 add_executable(3A_Pokemon
         Pokemon.cpp
         Pokemon.h
-        main.cpp)
+        main.cpp
+        Pokemon_Vector.h
+        Pokemon_Vector.cpp
+        Pokedex.h
+        Pokedex.cpp)
