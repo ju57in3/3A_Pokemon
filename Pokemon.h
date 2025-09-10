@@ -29,14 +29,20 @@ public:
     //Destructor
     ~Pokemon();
 
-    //Accesseurs
+    //Getters
     double getHP() const;
     double getHPMax() const;
     double getAttack() const;
     double getDefense() const;
 
+    //Setters
+    void setHP(double);
+    void setHPMax(double);
+    void setAttack(double);
+    void setDefense(double);
+
     //Fighting method
-    double fight() const;
+    void fight(Pokemon &target) const;
 
     //Constructor de recopie
     //Pokemon(const Pokemon& anotherPokemon);

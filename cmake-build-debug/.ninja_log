@@ -1,0 +1,13 @@
+# ninja log v5
+57	958	7792131849402459	CMakeFiles/3A_Pokemon.dir/main.cpp.obj	eccd266dfda88c7
+1	1058	7792131850390513	CMakeFiles/3A_Pokemon.dir/Pokemon.cpp.obj	99eb15039baada37
+1059	1463	7792131854337822	3A_Pokemon.exe	9f68baea685eaad9
+25	791	7792200526929545	CMakeFiles/3A_Pokemon.dir/main.cpp.obj	eccd266dfda88c7
+12	825	7792200527374406	CMakeFiles/3A_Pokemon.dir/Pokemon.cpp.obj	99eb15039baada37
+825	1203	7792200531085723	3A_Pokemon.exe	9f68baea685eaad9
+6	516	7792201249805942	CMakeFiles/3A_Pokemon.dir/Pokemon.cpp.obj	99eb15039baada37
+517	770	7792201252231766	3A_Pokemon.exe	9f68baea685eaad9
+5	517	7792201459155994	CMakeFiles/3A_Pokemon.dir/Pokemon.cpp.obj	99eb15039baada37
+518	797	7792201461858162	3A_Pokemon.exe	9f68baea685eaad9
+6	567	7792202860539295	CMakeFiles/3A_Pokemon.dir/Pokemon.cpp.obj	99eb15039baada37
+568	818	7792202862940853	3A_Pokemon.exe	9f68baea685eaad9
