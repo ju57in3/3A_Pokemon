@@ -1,7 +1,3 @@
-//
-// Created by justi on 10/09/2025.
-//
-
 #include <iostream>
 #include "Pokemon.h"
 

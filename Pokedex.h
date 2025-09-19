@@ -6,6 +6,7 @@
 #define INC_3A_POKEMON_POKEDEX_H
 
 #include <string>
+#include <vector>
 
 using namespace std;
 
