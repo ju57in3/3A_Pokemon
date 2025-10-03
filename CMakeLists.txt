@@ -1,23 +1,35 @@
-cmake_minimum_required(VERSION 3.26)
-project(3A_Pokemon)
+cmake_minimum_required(VERSION 4.0)
+project(project)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
-find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-include_directories(.)
+find_package(SFML 2.5 REQUIRED COMPONENTS graphics window system)
 
-add_executable(3A_Pokemon
-        inc/Pokemon.h
-        inc/Pokemon_Vector.h
-        inc/Pokedex.h
-        inc/Pokemon_Party.h
-        inc/Pokemon_Attack.h
-)
+add_executable(project
+        main.cpp
+        Pokemon.cpp
+        Pokemon.h
+        PokemonVector.h
+        Pokedex.cpp
+        Pokedex.h
+        PokemonParty.h
+        PokemonAttack.cpp
+        PokemonAttack.h
+        GameState.h
+        Game.cpp
+        Game.h
+        MainMenuState.cpp
+        MainMenuState.h
+        SelectionState.cpp
+        SelectionState.h
+        BattleState.cpp
+        BattleState.h
+        PauseState.cpp
+        PauseState.h
+        ResultsState.cpp
+        ResultsState.h
+        HealthBar.h)
 
-target_link_libraries(3A_Pokemon
-        sfml-graphics
-        sfml-window
-        sfml-system
-        sfml-audio
-        )
+target_link_libraries(project PRIVATE sfml-graphics sfml-window sfml-system)
